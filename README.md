@@ -1,16 +1,26 @@
------BankAccount--------
+BankAccount
+--------------
 
 -accountId: int
+
 -customerName: string
+
 -balance: decimal
+
 -transactions: List<string>
-----------------------------
+
 +BankAccount(customerName: string, balance: decimal)
+
 +Deposit(amount: decimal): void
+
 +Withdraw(amount: decimal): void
+
 +AccountId: int { get; }
+
 +CustomerName: string { get; }
+
 +Balance: decimal { get; }
+
 +Transactions: List<string> { get; }
 
 Test Cases:
