@@ -1,31 +1,4 @@
-﻿/*  Implement a class called BankAccount
-
-including UML design and test cases in the README of GitHub
-Keeps track of account id, balance, transactions, note: use properties to access these instance variables
-
-An account can be created given the customer name, initial balance, 
-
-Create deposit and withdrawal methods.
-
-Test the methods in the BankAccount class using the above test cases, considering all possible success and failure cases*/
-
-//-----BankAccount--------
-/*
--accountId: int
--customerName: string
--balance: decimal
--transactions: List<string>
-----------------------------
-+BankAccount(customerName: string, balance: decimal)
-+Deposit(amount: decimal): void
-+Withdraw(amount: decimal): void
-+AccountId: int { get; }
-+CustomerName: string { get; }
-+Balance: decimal { get; }
-+Transactions: List<string> { get; }
-*/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 public class BankAccount
