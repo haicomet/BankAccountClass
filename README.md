@@ -24,11 +24,12 @@ BankAccount
 +Transactions: List<string> { get; }
 
 Test Cases:
-Keeps track of account id, balance, transactions, note: use properties to access these instance variables
 
-An account can be created given the customer name, initial balance, 
+1.Keeps track of account id, balance, transactions
 
-Create deposit and withdrawal methods.
+2.An account can be created given the customer name, initial balance, 
+
+3.Create deposit and withdrawal methods.
 
 
 <img width="552" height="239" alt="Screenshot 2025-09-24 at 7 46 10 PM" src="https://github.com/user-attachments/assets/e06e27f5-5521-4937-9d3f-b765f34d622e" />
